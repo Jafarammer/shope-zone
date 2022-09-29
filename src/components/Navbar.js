@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // images
-import imgLogo from "../images/Vector.svg";
+// import imgLogo from "../images/Vector.svg";
 // organism
 import DialogFilter from "./organism/DialogFilter";
 // MUI
@@ -74,7 +74,7 @@ function Navbar() {
     >
       <StyledToolbar>
         <GroupLeft py={2} onClick={() => navigate("/")}>
-          <img src={imgLogo} />
+          <img src="/img/Vector.svg" />
           <Typography
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}

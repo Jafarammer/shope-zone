@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import imgLogo from "../../images/Vector.svg";
+// import imgLogo from "../../images/Vector.svg";
 // organism
 import FormRegisterCustomer from "../../components/organism/FormRegisterCustomer";
 import FormRegisterSeller from "../../components/organism/FormRegisterSeller";
@@ -75,7 +75,7 @@ function Register() {
         }}
       >
         <Logo>
-          <img src={imgLogo} alt="image" />
+          <img src="/img/Vector.svg" alt="image" />
           <Typography variant="h5" mt={2} fontWeight="bold">
             Shope Zone
           </Typography>
